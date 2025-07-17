@@ -89,3 +89,9 @@ git push
 git push --set-upstream origin main
 git commit main
 git commit
+git commit -m "Trying to fix issues"
+git push
+git push --force origin main
+pg_dump -cC --inserts -U freecodecamp salon > salon.sql
+git commit -m "Updating database file"
+git add .
